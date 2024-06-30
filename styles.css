@@ -16,7 +16,7 @@ body {
     position: fixed; /* Fixes the position of the div */
     top: 0;
     left: 0;
-    height: 100%; /* Ensures the div takes the full height of the viewport */
+    height: 97%; /* Ensures the div takes the full height of the viewport */
     width: 22%;
     border-right: 2px solid black;
     padding-top: 20px; /* Adjust the padding as needed */
@@ -36,11 +36,13 @@ li {
     margin-left: -10px;
 }
 
-#heading{
-    padding-top: 2px;
-    font-size: 13px;
-    font-weight: lighter;
-    
+.heading{
+    padding-left: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    font-size: 25px;
 }
 
 .content{
